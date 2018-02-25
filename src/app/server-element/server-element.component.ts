@@ -9,7 +9,8 @@ export class ServerElementComponent implements OnInit {
 
   @Input() element: {type: string, name: string, content: string};
 
-  constructor() {}
+  constructor() {
+  }
 
   ngOnInit() {}
 
