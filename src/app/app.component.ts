@@ -24,4 +24,12 @@ export class AppComponent {
     });
   }
 
+  onChangeFirst() {
+    this.serverElements[0].name =  this.serverElements[0].name + 'x';
+    this.serverElements[0].content = this.serverElements[0].content + 'y';
+  }
+
+  onDestroyFirst() {
+    this.serverElements.splice(0, 1);
+  }
 }
